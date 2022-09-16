@@ -1,0 +1,42 @@
+body {
+  font-family : Helvetica, sans-serif;
+  margin: 0;  
+}
+   .header {
+    padding: 60px;
+    text-align: center;
+    background: rgb(80, 16, 35);
+    color: white;
+    font-size: 35px;
+}
+h2 {text-align: center;}
+img{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.column {
+float: left;
+width: 33.33%;
+padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: green;
+  color: black;
+}
